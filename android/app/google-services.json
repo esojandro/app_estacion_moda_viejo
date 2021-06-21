@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "45678861753",
+    "project_id": "appestacionmoda",
+    "storage_bucket": "appestacionmoda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45678861753:android:8b90d2cd7e9385652a2a68",
+        "android_client_info": {
+          "package_name": "com.example.app_estacion_moda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45678861753-hol148342732llofukrd0e1mcummfdsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMBjJDDTWGMlqB-rh1lNG9M13-6cokn34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45678861753-hol148342732llofukrd0e1mcummfdsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
