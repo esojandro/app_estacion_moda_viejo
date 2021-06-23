@@ -35,7 +35,7 @@ dependencies:
   cloud_firestore: ^2.2.2
   provider: ^5.0.0
   get: ^4.1.4
-  
+  user_profile_avatar:  ^0.0.9
 
 
 

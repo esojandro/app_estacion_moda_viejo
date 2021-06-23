@@ -83,7 +83,7 @@ class LoginPage extends StatelessWidget {
                               alignment: Alignment.center,
                               child: SignInButton(
                                 Buttons.Email,
-                                text: "correo login",
+                                text: "Iniciar Sesión",
                                 onPressed: () async {
                                   _.signInWithEmailAndPassword();
                                 },
@@ -94,7 +94,7 @@ class LoginPage extends StatelessWidget {
                               alignment: Alignment.center,
                               child: SignInButton(
                                 Buttons.GoogleDark,
-                                text: "Google",
+                                text: "Inicio con Google",
                                 onPressed: () async {
                                   _.signInwithGoogle();
                                 },

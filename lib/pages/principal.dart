@@ -10,6 +10,7 @@ class PrincipalPage extends StatelessWidget {
               image: AssetImage('assets/fondo.jpg'), fit: BoxFit.cover)),
       child: Scaffold(
         backgroundColor: Colors.transparent,
+        /* Esto elimina la barra de arriba que dice principal
         appBar: AppBar(
           backgroundColor: Colors.grey.shade300,
           title: Text(
@@ -17,8 +18,13 @@ class PrincipalPage extends StatelessWidget {
             style: TextStyle(fontSize: 15, color: Colors.black),
           ),
         ),
+        */        
         body: Column(
           children: [
+            Divider(
+                  height: 75,
+                  thickness: 0,
+                ),
             CircleAvatar(
                 maxRadius: 140,
                 backgroundImage: AssetImage('assets/EstaciónModa.png')),
